@@ -1,0 +1,9 @@
+.startPage{
+        text-align: center;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg_CPQb9RsenU4UQftI1XaOc_7kvMmT7mPXCtUPjVzB9EFQH7g');
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color: white;
+}
