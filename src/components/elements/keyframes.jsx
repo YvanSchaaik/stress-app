@@ -42,7 +42,7 @@ export const dangerBg = keyframes`
     }
 `;
 
-export const spin = keyframes`
+export const spin1 = keyframes`
     from {
         transform: rotate(0deg);
         background-color: yellow;
@@ -52,15 +52,42 @@ export const spin = keyframes`
         background-color: black;
     }
 `
-export const breath = keyframes`
+export const breath1 = keyframes`
     0%{
         border-radius: 5px;
+        
     }
     50% {
         border-radius: 50%;
     }
     100%{
         border-radius: 5px;
+        
+    }
+`;
+export const spin2 = keyframes`
+    from {
+        transform: rotate(0deg);
+        background-color: cornflowerblue;
+    }
+    to {
+        transform: rotate(120deg);
+        background-color: lawngreen;
+    }
+`
+export const breath2 = keyframes`
+    0%{
+        border-radius: 5px;
+        opacity: 0;
+    }
+    50% {
+        border-radius: 50%;
+    }
+    100%{
+        border-radius: 5px;
+        opacity: 1;
+
+
     }
 `;
 
@@ -88,11 +115,44 @@ from {
 
 export const move3 = keyframes`
 from {
-    transform: translateX(-100px);
+    transform: translate(0, 0);
+    background-color: lightgreen;
+  }
+  to {
+    transform: translate(950px, -180px);
+    background-color: blue;
+  }
+`;
+
+export const move4 = keyframes`
+from {
+    transform: translate(0, 0);
+    background-color: purple;
+  }
+  to {
+    transform: translate(400px, -500px);
+    background-color: gold;
+  }
+`;
+
+export const move5 = keyframes`
+from {
+    transform: translate(0, 0);
+    background-color: gold;
+  }
+  to {
+    transform: translate(-400px, -500px);
+    background-color: purple;
+  }
+`;
+
+export const move6 = keyframes`
+from {
+    transform: translateX(10px);
     background-color: lightskyblue;
   }
   to {
-    transform: translateY(+200px);
-    background-color: black;
+    transform: translateX(1000px);
+    background-color: gray;
   }
 `;

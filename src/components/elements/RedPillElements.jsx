@@ -1,21 +1,15 @@
-import styled, { keyframes } from 'styled-components'
-import { flashBg, dangerBg, verticalDiv1 } from './keyframes'
-import { spin } from './keyframes';
-import { breath } from './keyframes';
-import { move1 } from './keyframes';
-import { move2 } from './keyframes';
-import { move3 } from './keyframes'
+import styled from 'styled-components'
+import { flashBg, dangerBg, spin1,  breath1 , move1 , move2 , move3  ,  move4  ,move5 ,breath2 , spin2}   from './keyframes'
 
 
 export const FlashBg = styled.div`
-    width : 110%;
+    width : 100%;
     height : 100vh;
     background: red;
     justify-content: center;
     text-align: center;
     line-height: 400px;
     /* animation: ${flashBg} 0.5s ease-in-out 5s infinite */
-
 `;
 
 export const Danger = styled.div`
@@ -29,6 +23,18 @@ export const Danger = styled.div`
     /* animation: ${dangerBg} 0.5s ease-in-out 5s infinite */
 `;
 
+export const ButtonIndex = styled.button`
+    font-family: ${(props) => props.theme.font};
+    font-size : 1;
+    border: none;
+    border-radius: 100px, 100px;
+    background: transparent;
+    position:relative;
+    transition: .5s ease;
+    top: 47vh;
+    color: red;
+`;
+
 export const SpinDivLeft1 = styled.div`
     width: 60px;
     height: 60px;
@@ -36,7 +42,7 @@ export const SpinDivLeft1 = styled.div`
     position: absolute;
     left: 200px;
     top: 170px;
-    /* animation: ${breath} 0.3s linear infinite, ${spin} 0.8s linear infinite */
+    /* animation: ${breath1} 0.3s linear 5s infinite, ${spin1} 0.8s linear 5s infinite */
 `;
 export const SpinDivLeft2 = styled.div`
     width: 60px;
@@ -45,7 +51,7 @@ export const SpinDivLeft2 = styled.div`
     position: absolute;
     left: 200px;
     top: 460px;
-    /* animation: ${breath} 0.3s linear infinite, ${spin} 0.8s linear infinite */
+    /* animation: ${breath1} 0.3s linear 5s infinite, ${spin1} 0.8s linear 5s infinite */
 
 `;
 export const SpinDivRight1 = styled.div`
@@ -55,7 +61,7 @@ export const SpinDivRight1 = styled.div`
     position: absolute;
     left: 1170px;
     top: 170px;
-    /* animation: ${breath} 0.3s linear infinite, ${spin} 0.8s linear infinite */
+    /* animation: ${breath1} 0.3s linear 5s infinite, ${spin1} 0.8s linear 5s infinite */
 
 `;
 export const SpinDivRight2 = styled.div`
@@ -65,7 +71,7 @@ export const SpinDivRight2 = styled.div`
     position: absolute;
     left: 1170px;
     top: 460px;
-    /* animation: ${breath} 0.3s linear infinite, ${spin} 0.8s linear infinite */
+    /* animation: ${breath1} 0.3s linear 5s infinite, ${spin1} 0.8s linear 5s infinite */
 `;
 
 export const FadeInBar1 = styled.div`
@@ -75,7 +81,7 @@ export const FadeInBar1 = styled.div`
     position: absolute;
     left: 30%;
     top : 15%;
-    /* animation: ${breath} 10s linear 1s infinite, ${spin} 0.169s linear infinite; */
+    /* animation: ${breath1} 10s linear 5ss infinite, ${spin1} 0.169s linear 5s infinite; */
 `;
 
 export const FadeInBar2 = styled.div`
@@ -85,7 +91,7 @@ export const FadeInBar2 = styled.div`
     position: absolute;
     left: 30%;
     bottom: 25%;
-    /* animation: ${breath} 10s linear 9s infinite, ${spin} 0.169s linear infinite; */
+    /* animation: ${breath1} 10s linear 5s infinite, ${spin1} 0.169s linear 5s infinite; */
 `;
 
 export const FadeInBar3 = styled.div`
@@ -95,7 +101,7 @@ export const FadeInBar3 = styled.div`
     position: absolute;
     left: 68%;
     top: 15%;
-    /* animation: ${spin} 0.169s linear 3s infinite; */
+    /* animation: ${spin1} 0.169s linear 5s infinite; */
 `;
 
 export const FadeInBar4 = styled.div`
@@ -105,7 +111,7 @@ export const FadeInBar4 = styled.div`
     position: absolute;
     left: 68%;
     bottom: 25%;
-    /* animation: ${breath} 10s linear 1s infinite, ${spin} 0.169s linear infinite; */
+    /* animation: ${breath1} 10s linear 5s infinite, ${spin1} 0.169s linear 5s infinite; */
 `;
 
 export const MoveDiv1 = styled.div`
@@ -115,7 +121,7 @@ export const MoveDiv1 = styled.div`
     position: absolute;
     left: 17%;
     bottom: 39%;
-    /* animation: ${move1} 0.5s linear infinite; */
+    /* animation: ${move1} 0.5s linear 5s infinite; */
 `;
 
 export const MoveDiv2 = styled.div`
@@ -125,7 +131,7 @@ export const MoveDiv2 = styled.div`
     position: absolute;
     left: 15%;
     top: 28%;
-    /* animation: ${move2} 0.5s reverse linear infinite; */
+    /* animation: ${move2} 0.5s reverse linear 5s infinite; */
 `;
 
 export const MoveDiv3 = styled.div`
@@ -135,5 +141,53 @@ export const MoveDiv3 = styled.div`
     position: absolute;
     left: 17%;
     bottom: 39%;
-    /* animation: ${move3} 4s linear infinite; */
+    /* animation: ${move3} 1.5s linear reverse 5s infinite; */
 `;
+
+export const MoveDiv4 = styled.div`
+    width : 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+    /* animation: ${move4} 2s linear 5s infinite; */
+`;
+
+export const MoveDiv5 = styled.div`
+    width : 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: 15%;
+    bottom: 10%;
+    /* animation: ${move5} 2s linear 5s infinite ; */
+`;
+
+export const BreathDiv1 = styled.div`
+    width : 180px;
+    height: 180px;
+    background-color: white;
+    border-radius: 50%;
+    /* animation: ${breath2} 0.3s linear 5s infinite, ${spin2} 2s ease-in-out 5s infinite; */
+    position : absolute;
+    left: 42%;
+    bottom: 10%; 
+`;
+
+export const BreathDiv2 = styled.div`
+    width : 180px;
+    height: 180px;
+    background-color: white;
+    border-radius: 50%;
+    /* animation: ${breath2} 0.3s linear 5s infinite, ${spin2} 1s ease-in-out 5s infinite; */
+    position : absolute;
+    left: 42%;
+    top: 5%; 
+`;
+
+
+
+

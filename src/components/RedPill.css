@@ -1,0 +1,106 @@
+div.div1 {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: move1;
+    animation-duration: 1.5s;
+    animation-delay: 5s;
+     animation-iteration-count: infinite;
+  }
+  
+  @keyframes move1 {
+    0%   {background-color:purple; left:20vh; top:13vh;}
+    25%  {background-color:yellow; left:180vh; top:13vh;}
+    50%  {background-color:blue; left:180vh; top:80vh;}
+    75%    {background-color: lightgreen; left: 20vh; top:80vh;}
+    100% {background-color:lightgoldenrodyellow; left:20vh; top:13vh;}
+  }
+
+  div.div2 {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: move2;
+    animation-duration: 1.5s;
+    animation-delay: 5s;
+     animation-iteration-count: infinite;
+  }
+  
+  @keyframes move2 {
+    0%   {background-color:purple; left: 180vh; top: 13vh;}
+    25%  {background-color:yellow; left: 180vh; top: 80vh;}
+    50%  {background-color:blue; left: 20vh; top: 80vh;}
+    75%  {background-color:green; left: 20vh; top: 13vh;}
+    100% {background-color:red; left: 180vh; top: 13vh;}
+  }
+
+  div.div3 {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: move3;
+    animation-duration: 1.5s;
+    animation-delay: 5s;
+     animation-iteration-count: infinite;
+  }
+  
+  @keyframes move3 {
+    0%   {background-color:purple; left: 180vh; top: 80vh;}
+    25%  {background-color:yellow; left:20vh; top: 80vh;}
+    50%  {background-color:blue; left: 20vh; top: 13vh;}
+    75%  {background-color:green; left: 180vh; top: 13vh;}
+    100% {background-color:red; left: 180vh; top: 80vh;}
+  }
+
+  div.div4 {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: move4;
+    animation-duration: 1.5s;
+    animation-delay: 5s;
+     animation-iteration-count: infinite;
+  }
+  
+  @keyframes move4 {
+    0%   {background-color:purple; left:20vh; top:80vh;}
+    25%  {background-color:yellow; left:20vh; top:13vh;}
+    50%  {background-color:blue; left:180vh; top:13vh;}
+    75%  {background-color:green; left:180vh; top:80vh;}
+    100% {background-color:red; left:20vh; top:80vh;}
+  }
+
+  div.div5 {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: move5;
+    animation-duration: 1.5s;
+    animation-delay: 5s;
+     animation-iteration-count: infinite;
+  }
+
+
+  
+  @keyframes move5 {
+    0%   {background-color:purple; left:180vh; top:50vh;}
+    25%  {background-color:yellow; left:95vh; top:80vh;}
+    50%  {background-color:blue; left: 20vh; top:50vh;}
+    75%  {background-color:green; left:95vh; top:13vh;}
+    100% {background-color:red; left:180vh; top:50vh;}
+  }
