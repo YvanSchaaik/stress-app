@@ -3,10 +3,8 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
     margin-right: auto;
     margin-left: auto;
-
     max-width: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
+    background-color: lightblue;
 `;
 
 export const BackGround = styled.div`
@@ -16,4 +14,11 @@ export const BackGround = styled.div`
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+`;
+
+export const ParagraphB = styled.p`
+    font-family: ${(props) => props.theme.font};
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
 `;

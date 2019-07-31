@@ -30,9 +30,8 @@ export const ButtonRed = styled.button`
     border-radius: 100px, 100px;
     background: transparent;
     position:relative;
-    transition: .5s ease;
-    top: 120px;
-    left: -250px;
+    left: -17%;
+    top: 15vh;
     color: blue;
 `;
 export const ButtonBlue = styled.button`
@@ -43,8 +42,8 @@ export const ButtonBlue = styled.button`
     background: transparent;
     position:relative;
     transition: .5s ease;
-    top: 120px;
-    left: 210px;
+    left: 17%;
+    top: 15vh;
     color: red;
 `;
 

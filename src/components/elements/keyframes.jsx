@@ -145,14 +145,3 @@ from {
     background-color: purple;
   }
 `;
-
-export const move6 = keyframes`
-from {
-    transform: translateX(10px);
-    background-color: lightskyblue;
-  }
-  to {
-    transform: translateX(1000px);
-    background-color: gray;
-  }
-`;
