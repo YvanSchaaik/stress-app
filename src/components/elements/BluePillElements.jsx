@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
-    background-color: lightblue;
 `;
 
 export const BackGround = styled.div`
@@ -19,6 +18,7 @@ export const BackGround = styled.div`
 export const ParagraphB = styled.p`
     font-family: ${(props) => props.theme.font};
     font-size: 1.5em;
+    font-weight: bold;
     text-align: center;
-    color: black;
+    color: plum;
 `;
