@@ -1,4 +1,4 @@
-import styled, {keyframes} from 'styled-components'
+import {keyframes} from 'styled-components'
 
 export const flashBg = keyframes`
     0% {
@@ -42,21 +42,13 @@ export const dangerBg = keyframes`
     }
 `;
 
-export const verticalDiv1 = keyframes`
-0% {
-    transform : translateY(0px) 
-}
-100% {
-    transform : translateY(-1000px) //I need y here
-}
-
-// 0%   {background-color:purple; left:10px; top:50px;}
-// 25%  {background-color:yellow; left:100px; top:130px;}
-// 50%  {background-color:blue; left:10px; top:100px;}
-// 75%  {background-color:green; left:500px; top:30px;}
-// 100% {background-color:red; left:10px; top:50px;}
-`;
-
-export const horizontalDiv1 = keyframes`
-
-`;
+export const spin = keyframes`
+    from {
+        transform: rotate(0deg);
+        background-color: yellow;
+    }
+    to {
+        transform: rotate(180deg);
+        background-color: black;
+    }
+`

@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components'
 import { flashBg, dangerBg, verticalDiv1 } from './keyframes'
+import { spin } from './keyframes';
 
 
 export const FlashBg = styled.div`
@@ -15,68 +16,54 @@ export const FlashBg = styled.div`
 
 export const Danger = styled.div`
     font-family: ${(props) => props.theme.font};
-    display: inline-box
+    display: inline-box;
     font-size: 15em;
     color: whitesmoke;
+    position: absolute;
+    left: 230px;
+    top: 170px;
     /* animation: ${dangerBg} 0.5s ease-in-out 5s infinite */
 `;
 
-export const VerticalDiv1 = styled.div`
-    width: 30px;
-    height: 30px;
+export const SpinDivLeft1 = styled.div`
+    width: 60px;
+    height: 60px;
     background-color: white;
-    animation-direction: normale;
-    animation: ${verticalDiv1} 2s ease-in-out 5s infinite
+    position: absolute;
+    left: 200px;
+    top: 170px;
+    animation: ${spin} 0.3s linear 0s infinite;
 `;
-export const VerticalDiv2 = styled.div`
-    width: 30px;
-    height: 30px;
+export const SpinDivLeft2 = styled.div`
+    width: 60px;
+    height: 60px;
     background-color: white;
+    position: absolute;
+    left: 200px;
+    top: 460px;
+    animation: ${spin} 0.3s linear 0s infinite;
 
 `;
-export const VerticalDiv3 = styled.div`
-    width: 30px;
-    height: 30px;
+export const SpinDivRight1 = styled.div`
+    width: 60px;
+    height: 60px;
     background-color: white;
+    position: absolute;
+    left: 1170px;
+    top: 170px;
+    animation: ${spin} 0.3s linear 0s infinite;
 
 `;
-export const VerticalDiv4 = styled.div`
-    width: 30px;
-    height: 30px;
+export const SpinDivRight2 = styled.div`
+    width: 60px;
+    height: 60px;
     background-color: white;
-
-`;
-export const VerticalDiv5 = styled.div`
-    width: 30px;
-    height: 30px;
-    background-color: white;
+    position: absolute;
+    left: 1170px;
+    top: 460px;
+    animation: ${spin} 0.3s linear 0s infinite;
 
 `;
 
-export const HorizontalDiv1 = styled.div`
-    width: 30px;
-    height: 30px;
-    background-color: white;
-`;
-export const HorizontalDiv2 = styled.div`
-    width: 30px;
-    height: 30px;
-    background-color: white;
-`;
-export const HorizontalDiv3 = styled.div`
-    width: 30px;
-    height: 30px;
-    background-color: white;
-`;
-export const HorizontalDiv4 = styled.div`
-    width: 30px;
-    height: 30px;
-    background-color: white;
-`;
-export const HorizontalDiv5 = styled.div`
-    width: 30px;
-    height: 30px;
-    background-color: white;
-`;
 
 

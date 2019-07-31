@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import { FlashBg, Danger,
-    VerticalDiv1, VerticalDiv2, VerticalDiv3, VerticalDiv4, VerticalDiv5,
-    HorizontalDiv1, HorizontalDiv2, HorizontalDiv3, HorizontalDiv4, HorizontalDiv5,
+import { FlashBg, Danger, SpinDivLeft1, SpinDivLeft2, SpinDivRight1, SpinDivRight2
 } from './elements/RedPillElements';
 
 
@@ -12,17 +10,13 @@ export class RedPill extends Component {
         return (
             <div>
                 <FlashBg>
-                    <VerticalDiv1></VerticalDiv1>
-                    <VerticalDiv2></VerticalDiv2>
-                    <VerticalDiv3></VerticalDiv3>
-                    <VerticalDiv4></VerticalDiv4>
-                    <VerticalDiv5></VerticalDiv5>
+                    <SpinDivLeft1></SpinDivLeft1>
+                    <SpinDivLeft2></SpinDivLeft2>
+
                         <Danger>STRESS</Danger>
-                    <HorizontalDiv1></HorizontalDiv1>
-                    <HorizontalDiv2></HorizontalDiv2>
-                    <HorizontalDiv3></HorizontalDiv3>
-                    <HorizontalDiv4></HorizontalDiv4>
-                    <HorizontalDiv5></HorizontalDiv5>
+                    <SpinDivRight1></SpinDivRight1>
+                    <SpinDivRight2></SpinDivRight2>
+
                 </FlashBg>
             </div>
         )
