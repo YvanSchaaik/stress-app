@@ -21,13 +21,42 @@ export const flashBg = keyframes`
     }
 `;
 
-// @-webkit-keyframes flash {
-//     0%, 49% {
-//       background-color: rgb(117, 209, 63);
-//       border: 3px solid #e50000;
-//     }
-//     50%, 100% {
-//       background-color: #e50000;
-//       border: 3px solid rgb(117, 209, 63);
-//     }
-//   }
+export const dangerBg = keyframes`
+    0% {
+        color: white;
+    }
+    20% {
+        color: red;
+    }
+    40% {
+        color: white;
+    }
+    60% {
+        color: red;
+    }
+    80% {
+        color: white;
+    }
+    90% {
+        color: red;
+    }
+`;
+
+export const verticalDiv1 = keyframes`
+0% {
+    transform : translateY(0px) 
+}
+100% {
+    transform : translateY(-1000px) //I need y here
+}
+
+// 0%   {background-color:purple; left:10px; top:50px;}
+// 25%  {background-color:yellow; left:100px; top:130px;}
+// 50%  {background-color:blue; left:10px; top:100px;}
+// 75%  {background-color:green; left:500px; top:30px;}
+// 100% {background-color:red; left:10px; top:50px;}
+`;
+
+export const horizontalDiv1 = keyframes`
+
+`;
