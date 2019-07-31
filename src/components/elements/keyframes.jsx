@@ -52,3 +52,47 @@ export const spin = keyframes`
         background-color: black;
     }
 `
+export const breath = keyframes`
+    0%{
+        border-radius: 5px;
+    }
+    50% {
+        border-radius: 50%;
+    }
+    100%{
+        border-radius: 5px;
+    }
+`;
+
+export const move1 = keyframes`
+from {
+    transform: translateX(10px);
+    background-color: lightskyblue;
+  }
+  to {
+    transform: translateX(900px);
+    background-color: black;
+  }
+`;
+
+export const move2 = keyframes`
+from {
+    transform: translateX(10px);
+    background-color: lightskyblue;
+  }
+  to {
+    transform: translateX(1000px);
+    background-color: black;
+  }
+`;
+
+export const move3 = keyframes`
+from {
+    transform: translateX(-100px);
+    background-color: lightskyblue;
+  }
+  to {
+    transform: translateY(+200px);
+    background-color: black;
+  }
+`;
