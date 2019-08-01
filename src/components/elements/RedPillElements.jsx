@@ -118,7 +118,7 @@ export const MoveDiv1 = styled.div`
     width : 90px;
     height: 9px;
     background-color: white;
-    position: absolute;
+    position: relative;
     left: 17%;
     bottom: 39%;
     /* animation: ${move1} 0.5s linear 5s infinite; */

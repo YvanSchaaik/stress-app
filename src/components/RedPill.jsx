@@ -31,7 +31,6 @@ export class RedPill extends Component {
                     <SpinDivLeft1></SpinDivLeft1>
                     <SpinDivLeft2></SpinDivLeft2>
 
-                    <Danger>STRESS</Danger>
 
                     <SpinDivRight1></SpinDivRight1>
                     <SpinDivRight2></SpinDivRight2>
@@ -42,6 +41,7 @@ export class RedPill extends Component {
                     <div className="div4"></div>
                     <div className="div5"></div>
                     <Link to="/"><ButtonIndex>Back to index</ButtonIndex></Link>
+                    <Danger>STRESS</Danger>
 
                 </FlashBg>
 
