@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { flashBg, dangerBg, spin1, breath1, move1, move2, move3, move4, move5, breath2, spin2 } from './keyframes'
+import { flashBg, dangerBg, spin1, breath1, move1, move2, move3, move4, move5, breath2, spin2, breathingText } from './keyframes'
 
 
 export const FlashBg = styled.div`
@@ -9,7 +9,7 @@ export const FlashBg = styled.div`
     justify-content: center;
     text-align: center;
     line-height: 400px;
-    animation: ${flashBg} 0.5s ease-in-out 5s infinite;
+    animation: ${flashBg} 0.5s linear 5s infinite;
 `;
 
 export const Danger = styled.div`
@@ -20,7 +20,7 @@ export const Danger = styled.div`
     position: absolute;
     left: 25%;
     top: 25%;
-    animation: ${dangerBg} 0.5s ease-in-out 5s infinite;
+    animation: ${dangerBg} 0.5s linear 5s infinite, ${breathingText} 0.5s ease-out 5s infinite normal;;
 `;
 
 export const ButtonIndex = styled.button`

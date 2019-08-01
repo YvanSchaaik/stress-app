@@ -145,3 +145,21 @@ from {
     background-color: purple;
   }
 `;
+
+export const breathingText = keyframes`
+  0% {
+      transform: scale(0.8);
+  }
+  25% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(0.8);
+  }
+  75% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(0.8);
+  }
+`;
