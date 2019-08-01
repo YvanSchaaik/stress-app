@@ -37,8 +37,9 @@ export class BluePill extends Component {
                                 <li>Cinnamon</li>
                                 <li>Sandalwood</li>
                             </ul>
+                            <Link to="/">Back to index.</Link>
+
                         </ParagraphB>
-                        <Link to="/">Back to index.</Link>
                     </Wrapper>
                 </BackGround>
 
