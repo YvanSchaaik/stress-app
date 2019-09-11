@@ -14,6 +14,8 @@ export class RedPill extends Component {
         return (
             <div>
                 <FlashBg>
+                <Danger>#STRESS</Danger>
+
                     <FadeInBar1></FadeInBar1>
                     <FadeInBar2></FadeInBar2>
                     <FadeInBar3></FadeInBar3>
@@ -31,7 +33,6 @@ export class RedPill extends Component {
                     <SpinDivLeft1></SpinDivLeft1>
                     <SpinDivLeft2></SpinDivLeft2>
 
-                    <Danger>STRESS</Danger>
 
                     <SpinDivRight1></SpinDivRight1>
                     <SpinDivRight2></SpinDivRight2>

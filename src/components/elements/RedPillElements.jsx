@@ -18,7 +18,7 @@ export const Danger = styled.div`
     font-size: 15em;
     color: whitesmoke;
     position: absolute;
-    left: 25%;
+    left: 10%;
     top: 25%;
     animation: ${dangerBg} 0.5s linear 5s infinite, ${breathingText} 0.5s ease-out 5s infinite normal;;
 `;
